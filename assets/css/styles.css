@@ -1,0 +1,154 @@
+* {
+  /*general*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playpen Sans", cursive;
+  /*otra opcion con variable= font-family: var(--font-family);*/
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: rgb(174, 244, 174);
+  /*otra opción- color: var(--secondary-color); */
+  padding: 20px 30px;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  gap: 40px;
+}
+
+ul {
+  list-style-type: none; /*general*/
+}
+a {
+  text-decoration: none; /*general*/
+}
+
+a:hover {
+  color: rgb(3, 47, 3); /*general*/
+}
+section {
+  background-color: rgb(223, 192, 151);
+}
+
+h1 {
+  font-size: 32px;
+}
+
+.principal {
+  /* _main.css*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin: auto;
+}
+
+.imagen {
+  /* _main.css*/
+  height: 453px;
+  width: 296px;
+}
+
+.texto {
+  /* _main.css*/
+  width: 500px;
+}
+
+p {
+  font-size: 18px;
+}
+
+body {
+  background-color: rgb(223, 192, 151);
+  }
+
+  .composteras{
+  display: flex;
+  justify-content: center; /* Centra horizontalmente el mapa */
+  align-items: center; /* Centra verticalmente el mapa */
+  max-width: 100%; /* Evita que el mapa se extienda más allá del ancho de la pantalla */
+  overflow: hidden; /
+  }
+  .imagenComposteras2 {
+    width: 80.266px ;
+    height: 137px;
+  }
+.titulo-conjunto {
+  display: flex; /* Utiliza un contenedor flexible */
+  align-items: center; /* Centra verticalmente los elementos */
+  h2 {
+    margin-right: 10px; /* Agrega un espacio entre el h2 y el h1 */
+  }
+}
+
+.contenido {
+  display: flex;
+  align-items: center; /* Centra verticalmente la imagen y el texto */
+  gap: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.imagen2 {
+  max-width: 30%; /* Ajusta el ancho de la imagen según tus necesidades */
+}
+.video {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente el mapa */
+  align-items: center; /* Centra verticalmente el mapa */
+  max-width: 100%; /* Evita que el mapa se extienda más allá del ancho de la pantalla */
+  overflow: hidden; /* Oculta cualquier desbordamiento del mapa fuera del contenedor */
+}
+.mapa {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente el mapa */
+  align-items: center; /* Centra verticalmente el mapa */
+  max-width: 100%; /* Evita que el mapa se extienda más allá del ancho de la pantalla */
+  overflow: hidden; /* Oculta cualquier desbordamiento del mapa fuera del contenedor */
+}
+
+.contenedor {
+  max-width: 1200px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.entrada-blog a {
+  display: inline-block;
+  background-color: #2196f3;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@media (min-width: 480px) {
+  .column-drop-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .contenido-principal .primera {
+    flex-basis: calc(50% - 1rem);
+  }
+}
+
+@media (min-width: 768px) {
+  .contenido-principal {
+    flex-basis: calc(66.67% - 1rem);
+  }
+  .primera {
+    flex-basis: calc(33.3% - 2rem);
+  }
+}
+
+footer {
+  /*archivo _footer.css*/
+  background-color: rgb(238, 163, 106);
+  padding: 10px;
+  text-align: center;
+}
