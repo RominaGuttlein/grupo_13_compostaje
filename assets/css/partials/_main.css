@@ -1,0 +1,81 @@
+
+.principal {
+    /* _main.css*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin: auto;
+  }
+  
+  .imagen {
+    /* _main.css*/
+    height: 453px;
+    width: 296px;
+  }
+  
+  .texto {
+    /* _main.css*/
+   
+    width: 500px;
+  }
+
+
+body {
+    background-color: rgb(223, 192, 151);
+    }
+  
+    .composteras{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el mapa */
+    align-items: center; /* Centra verticalmente el mapa */
+    max-width: 100%; /* Evita que el mapa se extienda más allá del ancho de la pantalla */
+    overflow: hidden; /
+    }
+    .imagenComposteras2 {
+      width: 80.266px ;
+      height: 137px;
+    }
+  
+  
+  .contenido {
+    display: flex;
+    align-items: center; /* Centra verticalmente la imagen y el texto */
+    gap: 20px; /* Espacio entre la imagen y el texto */
+  }
+  
+  .imagen2 {
+    height: 403px;
+    width: 236px; /* Ajusta el ancho de la imagen  */
+  }
+  .video {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente video */
+    align-items: center; /* Centra verticalmente el video*/
+    max-width: 100%; /* Evita que el video se extienda más allá del ancho de la pantalla */
+    overflow: hidden; /* Oculta cualquier desbordamiento del video fuera del contenedor */
+  }
+  .mapa {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el mapa */
+    align-items: center; /* Centra verticalmente el mapa */
+    max-width: 100%; /* Evita que el mapa se extienda más allá del ancho de la pantalla */
+    overflow: hidden; /* Oculta cualquier desbordamiento del mapa fuera del contenedor */
+  }
+  
+  .contenedor {
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+  }
+  
+  .entrada-blog a {
+    display: inline-block;
+    background-color: #2196f3;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
