@@ -44,7 +44,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 50px;
+  gap: 60px;
   margin: auto;
 }
 
@@ -56,6 +56,7 @@ h1 {
 
 .texto {
   /* _main.css*/
+ 
   width: 500px;
 }
 
@@ -78,13 +79,7 @@ body {
     width: 80.266px ;
     height: 137px;
   }
-.titulo-conjunto {
-  display: flex; /* Utiliza un contenedor flexible */
-  align-items: center; /* Centra verticalmente los elementos */
-  h2 {
-    margin-right: 10px; /* Agrega un espacio entre el h2 y el h1 */
-  }
-}
+
 
 .contenido {
   display: flex;
@@ -93,12 +88,13 @@ body {
 }
 
 .imagen2 {
-  max-width: 30%; /* Ajusta el ancho de la imagen según tus necesidades */
+  height: 403px;
+  width: 236px; /* Ajusta el ancho de la imagen  */
 }
 .video {
   display: flex;
-  justify-content: center; /* Centra horizontalmente el mapa */
-  align-items: center; /* Centra verticalmente el mapa */
+  justify-content: center; /* Centra horizontalmente video */
+  align-items: center; /* Centra verticalmente el video*/
   max-width: 100%; /* Evita que el mapa se extienda más allá del ancho de la pantalla */
   overflow: hidden; /* Oculta cualquier desbordamiento del mapa fuera del contenedor */
 }

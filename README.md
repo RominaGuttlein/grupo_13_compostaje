@@ -1,5 +1,4 @@
-Trabajo Practico sobre compostaje, tratamos de concientizar sobre el cuidado del medio ambiente, con lo poco que uno puede hacer desde su lugar.
-
+Trabajo Practico sobre compostaje. Tratamos de concientizar sobre el cuidado del medio ambiente, en este caso reduciendo la cantidad de reciduos que generamos diariamente, mediante el compostaje. Como se puede aportar "un granito de arena" desde el lugar donde vivimos
 
 Una de las paginas en que nos inspiramos fue : Recíclame - reducir, reutilizar y reciclar
 https://www.reciclame.info/
