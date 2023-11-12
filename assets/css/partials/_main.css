@@ -79,8 +79,7 @@ body {
   }
   
   .entrada-blog a {
-    display: inline-block;
-    background-color: #2196f3;
+    display: inline-block;   
     color: white;
     padding: 10px 20px;
     text-decoration: none;
