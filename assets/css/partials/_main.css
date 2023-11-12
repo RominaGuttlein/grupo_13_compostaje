@@ -1,3 +1,11 @@
+.intro{
+  text-align: center;
+  margin: auto;
+}
+  .intro h2, .intro p {
+    display: inline;
+}
+  
 
 .principal {
     /* _main.css*/
@@ -22,13 +30,14 @@
 
 
 body {
-    background-color: rgb(223, 192, 151);
+    background-color: 
+     rgb(223, 192, 151);
     }
   
     .composteras{
     display: flex;
-    justify-content: center; /* Centra horizontalmente el mapa */
-    align-items: center; /* Centra verticalmente el mapa */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
     max-width: 100%; /* Evita que el mapa se extienda más allá del ancho de la pantalla */
     overflow: hidden; /
     }
@@ -79,3 +88,9 @@ body {
     text-transform: uppercase;
   }
   
+  .lombricesC {
+    width: 25%;
+  }
+  .lombricesRep {
+    width: 25%;
+  }
