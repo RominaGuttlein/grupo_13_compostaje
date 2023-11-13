@@ -1,8 +1,7 @@
-nav {
+nav {   
     display: flex;
     align-items: center;
-    background-color: rgb(174, 244, 174);
-    /*otra opción- color: var(--secondary-color); */
+    background-color: var(--primary-color);
     padding: 20px 30px;
     justify-content: space-between;
   }

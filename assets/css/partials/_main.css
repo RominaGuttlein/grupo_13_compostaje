@@ -1,6 +1,7 @@
 .intro{
   text-align: center;
   margin: auto;
+  background-color: var(--beige-color);
 }
   .intro h2, .intro p {
     display: inline;
@@ -30,8 +31,8 @@
 
 
 body {
-    background-color: 
-     rgb(223, 192, 151);
+    background-color: var(--bg-color);
+    
     }
   
     .composteras{

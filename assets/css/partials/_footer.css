@@ -1,7 +1,6 @@
 
 footer {
-    /*archivo _footer.css*/
-    background-color: rgb(238, 163, 106);
+    background-color: var(--secondary-color);
     padding: 10px;
     text-align: center;
   }
