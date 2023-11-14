@@ -1,9 +1,9 @@
 .intro{
   text-align: center;
   margin: auto;
-  background-color: var(--beige-color);
+  background-color: var(--bg-color)
 }
-  .intro h2, .intro p {
+  .intro h3, .intro p {
     display: inline;
 }
   
@@ -26,7 +26,7 @@
   .texto {
     /* _main.css*/
    
-    width: 500px;
+    width: 525px;
   }
 
 
@@ -87,10 +87,33 @@ body {
     font-weight: bold;
     text-transform: uppercase;
   }
-  
+  .textoLombriz{
+    width: 500px;
+
+  }
   .lombricesC {
     width: 25%;
   }
   .lombricesRep {
     width: 25%;
+  }
+
+  .principalAboutUs{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 20px;
+  
+    margin: auto;
+  }
+  .descripcionAU{
+    padding: 10px 20px;
+
+  }
+  .textoAU {
+    width: 700px;
+
+  }
+  .compostAU{
+    width: 40%;
   }

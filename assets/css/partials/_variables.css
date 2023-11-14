@@ -1,8 +1,8 @@
 :root{
     --font-family: "Playpen Sans", cursive; 
-    --bg-color:  rgb(223, 192, 151);
-    --primary-color: rgb(174, 244, 174);
-    --secondary-color:  rgb(238, 163, 106);
-    --beige-color: rgb(211, 211, 151);
+    --bg-color: rgb(223, 192, 151);
+    --nav-color: rgb(200, 211, 151);
+    --footer-color: rgba(243, 183, 114, 0.966);
+    --green-color: rgb(174, 244, 174);
 }  
 
