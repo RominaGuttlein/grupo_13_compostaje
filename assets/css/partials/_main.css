@@ -15,6 +15,7 @@
     justify-content: center;
     gap: 60px;
     margin: auto;
+    padding: 20px 20px;
   }
   
   .imagen {
@@ -40,11 +41,15 @@ body {
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
     max-width: 100%; /* Evita que el mapa se extienda más allá del ancho de la pantalla */
-    overflow: hidden; /
+    overflow: hidden; 
+    border-radius: 10px;
+    margin: 10px;
     }
     .imagenComposteras2 {
       width: 80.266px ;
       height: 137px;
+      border-radius: 10px;
+      margin: 10px;
     }
   
   
@@ -87,17 +92,23 @@ body {
     font-weight: bold;
     text-transform: uppercase;
   }
+  /*lombriz*/
   .textoLombriz{
     width: 500px;
 
   }
+  /*lombriz*/
   .lombricesC {
     width: 25%;
+    border-radius: 10px;
   }
+  /*lombriz*/
   .lombricesRep {
     width: 25%;
+    border-radius: 10px;
   }
 
+  /*Sobre Nosotras*/
   .principalAboutUs{
     display: flex;
     align-items: center;
@@ -106,14 +117,23 @@ body {
   
     margin: auto;
   }
+  
+/*Sobre Nosotras*/
   .descripcionAU{
     padding: 10px 20px;
 
   }
+ /*Sobre Nosotras*/
   .textoAU {
     width: 700px;
-
   }
+
+  /*Sobre Nosotras*/
   .compostAU{
     width: 40%;
+    border-radius: 10px;
   }
+  /*probando
+  .abouAbouUs-body {
+    background-image:image()
+  }*/
