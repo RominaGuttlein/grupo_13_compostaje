@@ -16,6 +16,7 @@
   gap: 60px;
   margin: auto;
   padding: 20px 20px;
+  box-sizing: border-box;
 }
 
 .imagen {
@@ -112,11 +113,13 @@ body {
   gap: 20px;
 
   margin: auto;
+  
 }
 
 /*Sobre Nosotras*/
 .descripcionAU {
   padding: 10px 20px;
+ 
 }
 /*Sobre Nosotras*/
 .textoAU {
@@ -134,10 +137,56 @@ body {
   }*/
 
 /*esto va ultimo en el css*/
+/*index.html*/
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+} 
+
+@media (max-width: 768px) {
+  .principal {
+    flex-direction: column;
+  }
+} 
+
+@media (max-width: 768px) {
+  .contenido {
+    flex-direction: column;
+  }
+} 
+
+@media (max-width: 768px) {
+  .composteras {
+    flex-direction: column;
+  }
+} 
+
+@media (max-width: 768px) {
+  .principalLombriz {
+    flex-direction: column;
+  }
+} 
+/*AboutUs*/
+@media (max-width: 768px) {
+  html .AboutUs {
+    flex-direction: column;
+  }
+} 
+/*htmlcontacto*/
+@media (max-width: 768px) {
+  html .contacto {
+    flex-direction: column;
+  }
+} 
+@media (max-width: 768px) {
+form .container {
+  flex-direction: column;
+}
+} 
 
 
-
-@media (min-width: 480px) {
+@media screen and (min-width: 480px) {
   .column-drop-flex {
     display: flex;
     justify-content: space-between;
@@ -148,7 +197,7 @@ body {
   }
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .contenido-principal {
     flex-basis: calc(66.67% - 1rem);
   }
