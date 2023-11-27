@@ -91,6 +91,17 @@ body {
   text-transform: uppercase;
 }
 /*lombriz*/
+.principalLombriz {
+  /* _main.css*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  margin: auto;
+  padding: 20px 20px;
+  box-sizing: border-box;
+}
+
 .textoLombriz {
   width: 500px;
 }
@@ -111,7 +122,6 @@ body {
   align-items: center;
   justify-content: center;
   gap: 20px;
-
   margin: auto;
   
 }
@@ -135,6 +145,26 @@ body {
   .abouAbouUs-body {
     background-image:image()
   }*/
+/*contacto*/
+  .principalContacto {
+    padding: 10px 20px;
+  }
+-imgComunidad{
+  width: 50%;
+  
+  border-radius: 10px;
+ 
+}
+  .formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: auto;
+    padding: 20px 20px;
+    box-sizing: border-box;
+  }
+
 
 /*esto va ultimo en el css*/
 /*index.html*/
