@@ -1,8 +1,9 @@
-/*
+
 function confirmarEnvio() {
   return confirm("¿Estás seguro de que deseas enviar el formulario?");
-} */
+} 
 
+/* lo tengo que sacar porque no funciona el formspree
 function confirmarEnvio() {
   Swal.fire({
     title: '¿Estás seguro?',
@@ -15,7 +16,7 @@ function confirmarEnvio() {
     if (result.isConfirmed) {      
       document.getElementById('miFormulario').submit(); 
     }
-  });
+  }); */
 
   return false;
     }
