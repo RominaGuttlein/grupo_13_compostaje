@@ -37,11 +37,12 @@
 
     <p>Completa el formulario!</p>
   </section>
-<div class="formulario">
+<div class="formularioContacto">
 
 
     <form
       class="container"
+      id="formulario"
       action="https://formspree.io/f/xvojnopb"
       method="post"
     >
@@ -82,6 +83,8 @@
       </div>
      <br>
       <button type="submit" class="btn btn-primary">Enviar</button>
+     
+      <button type="button" class="btn btn-secondary" onclick="limpiarFormulario()">Cancelar</button> 
     </form>
 
     <img src="../assets/img/concepto-tierra-cuidado-medio-ambiente.jpg" 
