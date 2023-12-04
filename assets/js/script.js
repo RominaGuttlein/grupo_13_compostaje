@@ -16,11 +16,11 @@ function confirmarEnvio() {
     if (result.isConfirmed) {      
       document.getElementById('miFormulario').submit(); 
     }
-  }); */
+  }); 
 
   return false;
     }
-
+*/
 
 function confirmarCancelacion() {
   Swal.fire({
