@@ -6,6 +6,7 @@
 .intro h3,
 .intro p {
   display: inline;
+ 
 }
 
 .principal {
@@ -93,6 +94,7 @@ body {
 /*lombriz*/
 .principalLombriz {
   /* _main.css*/
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -105,7 +107,7 @@ body {
 
 /*lombriz*/
 .lombricesC {
-  
+
   width: 250px;
   height: auto;
   border-radius: 10px;
@@ -130,7 +132,7 @@ body {
 /*Sobre Nosotras*/
 .descripcionAU {
   padding: 10px 20px;
-  
+
 }
 
 /*Sobre Nosotras*/
@@ -140,7 +142,7 @@ body {
 
 /*Sobre Nosotras*/
 .compostAU {
-  width: 40%;
+  width: 500px;
   border-radius: 10px;
 }
 /*probando, no descomentar-
@@ -157,10 +159,12 @@ body {
   border-radius: 10px;
 
 }
+
 .formularioContacto {
-  max-width: 80%;
+
   display: flex;
   align-items: center;
+  max-width: 850px;
   justify-content: center;
   gap: 30px;
   margin: auto;
@@ -195,11 +199,11 @@ body {
   }
 }
 
+/*lombriz*/
 @media (max-width: 768px) {
-  html .lombriz {
+  .principalLombriz {
     flex-direction: column;
-    align-items: stretch;
-    max-width: 100%;
+
   }
 }
 
@@ -207,25 +211,22 @@ body {
 /*AboutUs*/
 @media (max-width: 768px) {
   html .AboutUs {
+    display: flex;
     flex-direction: column;
+    align-items: center;
+   
   }
 }
 /*htmlcontacto*/
 @media (max-width: 768px) {
-  html .contacto {
+  .formularioContacto {
+    display: flex;
     flex-direction: column;
+    align-items: center;
   }
 }
 
-@media (max-width: 768px) {
-  .formulario {
-    flex-direction: column; /* Cambia la dirección de los elementos a columna */
-    align-items: stretch; /* Estira los elementos a lo largo del eje transversal */
-    max-width: 100%; /* Hace que el formulario ocupe el ancho completo del contenedor */
-  }
-}
-
-
+/*index.html*/
 @media screen and (min-width: 480px) {
   .column-drop-flex {
     display: flex;
