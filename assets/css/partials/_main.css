@@ -106,13 +106,13 @@ body {
 /*lombriz*/
 .lombricesC {
   
-  width: 95%;
+  width: 250px;
   height: auto;
   border-radius: 10px;
 }
 /*lombriz*/
 .lombricesRep {
-  width: 95%;
+  width: 250px;
   height: auto;
   border-radius: 10px;
 }
@@ -152,7 +152,7 @@ body {
   padding: 10px 10px;
 }
 .imgComunidad {
-  width: 95%;
+  width: 350px;
   height: auto;
   border-radius: 10px;
 

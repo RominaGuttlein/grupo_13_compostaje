@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contacto - LombriCompost</title> 
-    <link rel="icon" href="../assets/icons/icons8-worm-60.ico">   
+    <title>Contacto - LombriCompost</title>
+    <link rel="icon" href="../assets/icons/icons8-worm-60.ico" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -23,79 +23,86 @@
         <li><a href="./aboutUs.html">Sobre Nosotras</a></li>
       </ul>
     </nav>
-    <section class="principalContacto">
-    <h1>Sabias que...</h1>
 
-    <p>
-      En LombriCompost realizamos reuniones para debatir como podemos seguir
-      ayudando con el medio ambiente, organizamos eventos de concientizacion y
-      estamos en busquedas de nuevas soluciones para las diferentes
-      problematicas.
-    </p>
-    <br>
-    <h3>¿Queres formar parte del equipo?</h3>
-    <p>También si tenes alguna duda o consulta
-      <br>
-   completa el formulario!</p>
-  </section>
-<div class="formularioContacto">
+    <main>
+      <section class="intro">
+        <h3>Dudas, consulta, asesoramiento?</h3>   
+        <p>No dudes en escribirnos.</p>
+        <br>
+        <br>
+        <h3>Tenemos núcleos de lombrices</h3>
+        <p>
+          por 50, 100 o 200 unidades. Consultá por precio y stock! </p>
+      </section>
+    </main>
 
+    <div class="formularioContacto">
+      <form
+        class="container"
+        id="formulario"
+        action="https://formspree.io/f/xvojnopb"
+        method="post"
+      >
+        <div class="form-group">
+          <label for="nombre">Nombre:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="nombre"
+            name="nombre"
+            placeholder="Ingrese su nombre"
+            required
+          />
+        </div>
 
-    <form
-      class="container"
-      id="formulario"
-      action="https://formspree.io/f/xvojnopb"
-      method="post"
-    >
-      <div class="form-group">
-        <label for="nombre">Nombre:</label>
-        <input
-          type="text"
-          class="form-control"
-          id="nombre"
-          name="nombre"
-          placeholder="Ingrese su nombre"
-          required
-        />
-      </div>
-    
-      <div class="form-group">
-        <label for="email">Email:</label>
-        <input
-          type="email"
-          class="form-control"
-          id="email"
-          name="email"
-          placeholder="Ingrese su mail"
-          required
-        />
-      </div>
-     
-      <div class="form-group">
-        <label for="mensaje">Mensaje:</label>
-        <textarea
-          class="form-control"
-          id="mensaje"
-          name="mensaje"
-          rows="4"
-          placeholder="Ingrese su mensaje"
-          required
-        ></textarea>
-      </div>
-     <br>
-      
-      <button type="submit" class="btn btn-primary" onclick="return confirmarEnvio()">Enviar</button> 
-      <button type="cancelButton" class="btn btn-secondary" onclick="return confirmarCancelacion()">Cancelar</button>
-     
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            name="email"
+            placeholder="Ingrese su mail"
+            required
+          />
+        </div>
 
-    </form>
+        <div class="form-group">
+          <label for="mensaje">Mensaje:</label>
+          <textarea
+            class="form-control"
+            id="mensaje"
+            name="mensaje"
+            rows="4"
+            placeholder="Ingrese su mensaje"
+            required
+          ></textarea>
+        </div>
+        <br />
 
-    <img src="../assets/img/concepto-tierra-cuidado-medio-ambiente.jpg" 
-    class="imgComunidad"
-    alt="dibujo de personas abrazando al planeta"
-    title="comunidad" />
-  
-  </div>
+        <button
+          type="submit"
+          class="btn btn-primary"
+          onclick="return confirmarEnvio()"
+        >
+          Enviar
+        </button>
+        <button
+          type="cancelButton"
+          class="btn btn-secondary"
+          onclick="return confirmarCancelacion()"
+        >
+          Cancelar
+        </button>
+      </form>
+
+      <img
+        src="../assets/img/concepto-tierra-cuidado-medio-ambiente.jpg"
+        class="imgComunidad"
+        alt="dibujo de personas abrazando al planeta"
+        title="comunidad"
+      />
+    </div>
     <footer>
       <p>
         &copy; Copyrigth 2023 - Elaborado por Romina Guttlein y Jimena Cabral
@@ -114,9 +121,8 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
       integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
       crossorigin="anonymous"
-    ></script>    
+    ></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="../assets/js/script.js"></script>
-    
   </body>
 </html>

@@ -19,8 +19,8 @@ function confirmarEnvio() {
   }); 
 
   return false;
-    }
-*/
+    } */
+
 
 function confirmarCancelacion() {
   Swal.fire({
