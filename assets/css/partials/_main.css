@@ -77,6 +77,14 @@ body {
   overflow: hidden; /* Oculta cualquier desbordamiento del mapa fuera del contenedor */
 }
 
+.videoMP4 {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente video */
+  align-items: center; /* Centra verticalmente el video*/
+  max-width: 100%; /* Evita que el video se extienda más allá del ancho de la pantalla */
+  overflow: hidden; /* Oculta cualquier desbordamiento del video fuera del contenedor */
+}
+
 .contenedor {
   max-width: 1200px;
   width: 95%;

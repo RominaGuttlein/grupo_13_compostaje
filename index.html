@@ -108,7 +108,7 @@
             title="compostera con cajones"
           />
         </div>
-<br>
+        <br />
         <p>
           Poner en la base de la compostera una capa de tierra y luego las
           lombrices (en el caso de que realicemos vermicompost). Tapar con hojas
@@ -240,8 +240,10 @@
         <br />
         <h3>Instructivo en PDF</h3>
         <p>
-          Podes descargar el paso a paso del compostaje haciendo clic
-          <a href="./assets/documents/Instructivo Vermicompostaje.pdf">aqui</a>
+          Podes descargar el paso a paso del compostaje haciendo
+          <a href="./assets/documents/Instructivo Vermicompostaje.pdf"
+            >clic aqui</a
+          >
         </p>
         <br />
         <br />
@@ -251,8 +253,8 @@
           quieren reciclar sus residuos, compartimos mapa de CABA con puntos en
           dónde reciven tus compostables.
         </p>
+
         
-        <br />
         <div class="mapa">
           <iframe
             src="https://www.google.com/maps/d/embed?mid=1aOxAT3KcePHo_yk8r9NukFuwn6LMaww&hl=es_419&ehbc=2E312F"
@@ -262,6 +264,14 @@
           ></iframe>
         </div>
         <br />
+        <p>
+          Otros 19 Puntos Verdes
+          <a
+            href="https://buenosaires.gob.ar/ciudadverde/noticias/los-dias-jueves-lleva-tus-residuos-organicos-los-puntos-verdes"
+            >clic aquí</a
+          >
+        </p>
+
         <br />
         <h3>Observaciones</h3>
         <p>
@@ -273,21 +283,22 @@
           • Si hay hormigas, puede que al compost le esté faltando agua.
         </p>
         <br />
-        <br />
+
         <h3>Humus listo</h3>
         <p>
           En este video se puede ver un compost de 4 meses. No hay residuos de
-          comida. Si se ve aireado, suave al tacto, con humedad y huele a tierra, esta listo
-          para cosechar.
+          comida. Si se ve aireado, suave al tacto, con humedad y huele a
+          tierra, esta listo para cosechar.
         </p>
-
-        <video width="320" height="220" controls>
-          <source
-            src="./assets/documents/video5075957466135528307.mp4"
-            type="video/mp4"
-          />
-          Tu navegador no soporta el tag de video.
-        </video>
+        <div class="videoMP4">
+          <video width="320" height="220" controls>
+            <source
+              src="./assets/documents/video5075957466135528307.mp4"
+              type="video/mp4"
+            />
+            Tu navegador no soporta el tag de video.
+          </video>
+        </div>
         <br />
         <br />
         <h3>+ info Canal en Telegram</h3>
@@ -323,6 +334,48 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
       integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
       crossorigin="anonymous"
-    ></script>   
+    ></script>
+    <!--mapa-->
+    <script>
+      ((g) => {
+        var h,
+          a,
+          k,
+          p = "The Google Maps JavaScript API",
+          c = "google",
+          l = "importLibrary",
+          q = "__ib__",
+          m = document,
+          b = window;
+        b = b[c] || (b[c] = {});
+        var d = b.maps || (b.maps = {}),
+          r = new Set(),
+          e = new URLSearchParams(),
+          u = () =>
+            h ||
+            (h = new Promise(async (f, n) => {
+              await (a = m.createElement("script"));
+              e.set("libraries", [...r] + "");
+              for (k in g)
+                e.set(
+                  k.replace(/[A-Z]/g, (t) => "_" + t[0].toLowerCase()),
+                  g[k]
+                );
+              e.set("callback", c + ".maps." + q);
+              a.src = `https://maps.${c}apis.com/maps/api/js?` + e;
+              d[q] = f;
+              a.onerror = () => (h = n(Error(p + " could not load.")));
+              a.nonce = m.querySelector("script[nonce]")?.nonce || "";
+              m.head.append(a);
+            }));
+        d[l]
+          ? console.warn(p + " only loads once. Ignoring:", g)
+          : (d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n)));
+      })({
+        key: "YOUR_API_KEY_HERE",
+        // Add other bootstrap parameters as needed, using camel case.
+        // Use the 'v' parameter to indicate the version to load (alpha, beta, weekly, etc.)
+      });
+    </script>
   </body>
 </html>
